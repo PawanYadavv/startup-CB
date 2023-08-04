@@ -1,0 +1,32 @@
+.company-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .subsection {
+    max-width: 500px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    /* font-size: 20px;
+    font-weight: 400; */
+    color: #414654;
+  }
+  
+  .subsection p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #414654;
+  }
+  

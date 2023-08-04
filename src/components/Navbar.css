@@ -1,0 +1,229 @@
+Add this CSS to reset margin and padding on body and HTML elements
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+
+  /* Media query for smaller devices like smartphones */
+
+
+  .image-container {
+    height: 500px;
+   
+    /* border: 10px solid black; */
+  }
+
+  .Item-homes{
+    margin: 0px 0px;
+    
+  }
+
+  .img-clas {
+        margin-top: 44px;
+        height: 550px;
+        width: 50%;
+        /* margin-left:1px; */
+        /* position: relative; */
+        /* left: 250px; */
+   
+  }
+  
+.images-grid {
+  display: flex;
+}
+
+
+
+
+
+.items-square {
+  /* border: 1px solid black; */
+  margin-top: 44px;
+  /* margin-right: 0; */
+  height: 550px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 30px;
+  background-color: #f2f2f2;
+
+}
+
+.items-square p {
+  font-size: 21px;
+  margin-bottom: 10px;
+  /* font-size: 20px;
+  font-weight: 400; */
+  color: #414654;
+  margin-left: 17px;
+}
+
+.items-square h1 {
+
+  text-align: center;
+}
+
+
+  /* Update .navbar CSS */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #414654;
+    height: 50px;
+    margin: 0;
+    z-index: 1090;
+  }
+  
+  /* Update .navbar-container CSS */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Add padding to adjust the content from the edges */
+  }
+  
+  /* Update .navbar-logo CSS (if needed) */
+  .navbar-logo {
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  /* Update .nav-menu CSS */
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+
+ .heading-nav {
+    color: #D7DADC;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 40px;
+ }
+  
+  /* Update .nav-item CSS */
+  .nav-item {
+    margin-right: 100px;
+    cursor: pointer;
+
+
+    color: #D7DADC;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  /* Update .nav-links CSS */
+  .nav-links {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .nav-links:hover {
+    color: #ff4500;
+  }
+
+  .sign-in-section {
+    
+    padding: 20px;
+    background-color: hwb(0 95% 5%);
+    text-align: center;
+    margin-top: 7px;
+  }
+  
+  .sign-in-section h1 {
+
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    color: #414654;
+}
+  
+  
+  .sign-in-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fa-linkedin {
+    position: relative;
+    right: 13px;
+    bottom: 3px;
+  }
+#linkedin-id {
+    height: 14px;
+}
+
+.google-signin {
+    position: relative;
+    right: 17px;
+    border-radius: 8px;
+    height: 30px;
+}
+  
+  .sign-in-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .linkedin-button {
+    background-color: #0077b5;
+    color: #fff;
+  }
+  
+  .google-button {
+    background-color: #db4437;
+    color: #fff;
+  }
+  
+  .button-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .or-signup {
+    color: #0f9d58;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .para {
+    /* font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 4px; */
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #414654;
+  }
+
+
+  
+
